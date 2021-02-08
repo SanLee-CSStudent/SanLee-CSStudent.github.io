@@ -1,0 +1,111 @@
+h1{
+	text-align: center;
+	border-top: 4px double;
+	border-left: 4px double;
+	border-right: 4px double;
+	padding-bottom: 8px;
+	padding-top: 20px;
+	background-color: #5994FF;
+	color: white;
+}
+
+body{
+	font-family: "Consolas";
+	border: 4px double;
+	padding-bottom: 8px;
+	margin-left: 95px;
+	margin-right: 95px;
+	margin-top: -25px;
+	background-color: #EDF4FF;
+}
+
+#menubar{
+	width: 100%;
+	margin-top: -22px;
+	color: white;
+	background-color: #5994FF;
+	border-left: 4px double;
+	border-right: 4px double;
+}
+
+.ArtCanvas{
+	width: 216px;
+	height: 384px;
+	border: 2px double;
+	color: white;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+
+#cells{
+	padding: 10px;
+	background-color: #5994FF;
+	color: white;
+}
+
+#cells:hover{
+	background-color: #FFFFFF;
+	color: black;
+}
+
+#boxes{
+	background-color: #FFFFFF;
+	text-align: left;
+}
+
+#contents{
+	width: 100%;
+	background-color: #EDF4FF;
+}
+
+#subHeader{
+	text-align: left;
+	padding-left: 5%;
+	width: 90%;
+	font-size: 36px;
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+#subsubHeader{
+	text-align: left;
+	font-size: 24px;
+}
+
+#myCanvas{
+	align: center;
+	width: 100%;
+	height: 50%;
+	background-color: black;
+}
+
+#slideshowGallery{
+	background-color: black;
+}
+
+#projectContainer{
+	padding-left: 10%;
+}
+
+#audios{
+	font-size: 20px;
+}
+
+#descriptionImage{
+	padding-left: 110px;
+}
+
+#description{
+	padding-left: 30px;
+}
+
+#linkToProject{
+	background-color: lime;
+}
+
+#linkToProject:hover{
+	color:white;
+	background-color:red;
+}

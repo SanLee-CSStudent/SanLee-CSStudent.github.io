@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="Resources/page-style.css">
+	<script type="text/javascript" src="Resources/functions.js"></script>
+
+<h1>San's Workshop</h1>
+</head>
+<body>
+<table id="menubar">
+	<tr>
+		<th id="cells" onclick=moveToHome()>Home</th>
+		<th id="cells" onclick=moveToGallery()>Gallery</th>
+		<th id="cells" onclick=moveToProject()>Project</th>
+		<th id="cells">Sprites</th>
+	</tr>
+</table>
+<h3 id="subHeader">Project</h3>
+<div id="projectContainer">
+	<h2 id="subsubHeader">Tick Tock</h2>
+	<div id="descriptionImage"><img src="Resources/Images/ticktock.png" alt="Tick Tock" width="640px" height="360px"/></div>
+	<p id="description"><b>Description:</b> Tick Tock is the name of a creature that lives on your desktop. She will constantly move around the screen
+	to keep you focused. Simple user interface is provided to interact with this creature such as feeding, sleeping, and stroking. 
+	Make sure you keep the creature alive; otherwise, it will faint(you can revive it any time). 
+	<br><br>Sprites for the creature and mouse cursors are from Maplestory: a MMORPG.
+	<br>Use Programming Language: Java.
+	<br>Link to Project is <a href="https://github.com/SanLee-CSStudent/Tick-Tock" id="linkToProject">here</a>.
+	</p>
+</div>
+
+<div id="projectContainer">
+	<h2 id="subsubHeader">Chiptunes with FamiTracker</h2>
+	<p id="description">Following modules are used: 2A03 and VRC6. <br>Below chiptunes have extension of wav. <br>
+		Browsers including Microsoft Edge may not support audio players. </p>
+	<ol>
+		<li id="audios">Battle! Frontier Brain from <i>Pokemon Platinum</i><br>
+		<audio class="audioControl" controls>
+			<source src="Resources/Musics/Battle! Frontier Brain.wav" type="audio/wav">
+			This browser does not support .wav extension.
+		</audio>
+		</li>
+		<li id="audios">Filming On the Way At Pokestar Studio! from <i>Pokemon Black 2 & White 2</i><br>
+		<audio class="audioControl" controls>
+			<source src="Resources/Musics/Filming Underway at Pokestar Studio.wav" type="audio/wav">
+			This browser does not support .wav extension.
+		</audio>
+		</li>
+		<li id="audios">Sky Tower from <i>Pokemon Mystery Dungeon: Blue Rescue Team</i><br>
+		<audio class="audioControl" controls>
+			<source src="Resources/Musics/Sky Tower.wav" type="audio/wav">
+			This browser does not support .wav extension.
+		</audio>
+		</li>
+		<li id="audios">Rainbow Road from <i>Mario Kart: Super Circuit</i><br>
+		<audio class="audioControl" controls>
+			<source src="Resources/Musics/Rainbow Road.wav" type="audio/wav">
+			This browser does not support .wav extension.
+		</audio>
+		</li>
+		<li id="audios">Rocket Jump Waltz from <i>Team Fortress 2</i><br>
+		<audio class="audioControl" controls>
+			<source src="Resources/Musics/Rocket Jump Waltz.wav" type="audio/wav">
+			This browser does not support .wav extension.
+		</audio>
+		</li>
+		<li id="audios">Marche Militaire by Franz Schubert<br>
+		<audio class="audioControl" controls>
+			<source src="Resources/Musics/Marche Militaire.wav" type="audio/wav">
+			This browser does not support .wav extension.
+		</audio>
+		</li>
+	</ol>
+	<script>defaultVolume();</script>
+</div>
+
+</body>
+</html>
