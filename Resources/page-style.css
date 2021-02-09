@@ -33,7 +33,7 @@ body{
 	height: 384px;
 	border: 2px double;
 	color: white;
-	margin-right: 15px;
+	margin-right: 20px;
 	margin-left: 15px;
 	margin-top: 15px;
 }
@@ -108,4 +108,15 @@ body{
 #linkToProject:hover{
 	color:white;
 	background-color:red;
+}
+
+#myProfile{
+	display: inline;
+	margin-left: 41.5%;
+	margin-top: -150px;
+}
+
+#textBox{
+	padding-left: 30px;
+	margin-right: 58.5%
 }
