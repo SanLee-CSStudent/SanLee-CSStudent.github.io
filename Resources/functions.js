@@ -20,11 +20,11 @@ var poss = [];
 var windowWidth = window.innerWidth;
 
 function init(){
-	var img1 = document.getElementById('Senya');
-	var img2 = document.getElementById('Nasang');
-	var img3 = document.getElementById('Jaesang');
-	var img4 = document.getElementById('Lucid');
-	var img5 = document.getElementById('Haeta');
+	let img1 = document.getElementById('Senya');
+	let img2 = document.getElementById('Nasang');
+	let img3 = document.getElementById('Jaesang');
+	let img4 = document.getElementById('Lucid');
+	let img5 = document.getElementById('Haeta');
 	imgs.push(img1);
 	imgs.push(img2);
 	imgs.push(img3);
@@ -32,7 +32,7 @@ function init(){
 	// imgs.push(img5);
 	
 	for(var i=0; i < size; i++){
-		var locLeft = i * imgs[i].style.width;
+		let locLeft = i * imgs[i].style.width;
 		imgs[i].style.position = "relative";
 		imgs[i].style.left = locLeft + "px";
 		imgs[i].style.top = "0px";
@@ -57,7 +57,9 @@ function galleryAnimation(){
 	
 }
 
-window.onload = function(){init();};
+window.onload = function(){
+	init();
+};
 
 function defaultVolume(){
 	var ctrl = document.getElementsByClassName("audioControl");
